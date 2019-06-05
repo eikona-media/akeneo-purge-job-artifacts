@@ -1,6 +1,7 @@
 {
   "name": "eikona-media/akeneo-purge-job-artifacts",
-  "description": "Purge commands for akeneo",
+  "description": "Purge job execution artifacts",
+  "license": "MIT",
   "type": "akeneo-bundle",
   "authors": [
     {
