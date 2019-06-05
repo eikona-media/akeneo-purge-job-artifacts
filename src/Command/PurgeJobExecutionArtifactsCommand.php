@@ -81,8 +81,8 @@ class PurgeJobExecutionArtifactsCommand extends Command
         $jobExecutions = [];
 
         $directories = $this->getDirectories($this->archiveDir);
-        foreach ($directories as $directoryName) {
-            $directoryPath = $this->archiveDir . DIRECTORY_SEPARATOR . $directoryName;
+        foreach ($directories as $directoryPath) {
+            $directoryName = basename($directoryPath);
             @array_push($jobExecutions, ...$this->getJobExectionsFromFileSystem($directoryPath, $directoryName));
         }
 
