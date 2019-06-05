@@ -1,6 +1,4 @@
-<div align="center" style="font-size:24px;font-weight:bold;margin-bottom:20px;">
-  Akeneo Purge Job Artifacts Bundle
-</div>
+# Akeneo Purge Job Artifacts Bundle
 
 This bundle comes with a new command to remove leftover job execution artifacts
 (files in the archive which are not linked to a database job execution anymore).
@@ -33,7 +31,6 @@ protected function registerProjectBundles()
 
 To remove leftover job execution artifacts execute the command `eikona-media:batch:purge-job-execution-artifacts`.  
 The command has one option: `--force`. If you omit the option the command runs in safe mode (no files will be deleted).
-
 
 The command searches for directories with a numeric name in the third level of the `archive` directory:
 
