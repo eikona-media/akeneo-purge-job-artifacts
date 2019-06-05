@@ -1,0 +1,20 @@
+{
+  "name": "eikona-media/akeneo-purge-job-artifacts",
+  "description": "Purge commands for akeneo",
+  "type": "akeneo-bundle",
+  "authors": [
+    {
+      "name": "EIKONA Media",
+      "homepage": "https://eikona-media.de/"
+    }
+  ],
+  "require": {
+    "php": "~7.1",
+    "akeneo/pim-community-dev": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "EikonaMedia\\Akeneo\\PurgeJobArtifactsBundle\\": "src/"
+    }
+  }
+}

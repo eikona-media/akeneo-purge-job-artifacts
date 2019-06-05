@@ -1,0 +1,8 @@
+services:
+  eikona.media.purge_bundle.command.purge_job_execution_files:
+    class: EikonaMedia\Akeneo\PurgeJobArtifactsBundle\Command\PurgeJobExecutionArtifactsCommand
+    arguments:
+      - '@pim_enrich.repository.job_execution'
+      - '%archive_dir%'
+    tags:
+      - { name: console.command, command: 'eikona-media:batch:purge-job-execution-artifacts' }
