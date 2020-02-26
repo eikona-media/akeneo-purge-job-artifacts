@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": "~7.2",
-    "akeneo/pim-community-dev": "^3.0"
+    "akeneo/pim-community-dev": "^3.0|^3.2"
   },
   "autoload": {
     "psr-4": {
