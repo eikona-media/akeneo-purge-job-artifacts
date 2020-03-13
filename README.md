@@ -7,13 +7,14 @@ This bundle comes with a new command to remove leftover job execution artifacts
 
 | Version | Akeneo PIM Community Edition | Akeneo PIM Enterprise Edition |
 |:-------:|:----------------------------:|:-----------------------------:|
+| 3.*     | 3.2.*                        | 3.2.*                         |
 | 2.*     | 3.0.*                        | 3.0.*                         |
 | 1.*     | 2.3.*                        | 2.3.*                         |
 
 ## Installation
 
 ```bash
-    composer require eikona-media/akeneo-purge-job-artifacts:~2.0
+    composer require eikona-media/akeneo-purge-job-artifacts:~3.0
 ```
 
 3) Enable the bundle in the `app/AppKernel.php` file in the `registerProjectBundles()` method:
